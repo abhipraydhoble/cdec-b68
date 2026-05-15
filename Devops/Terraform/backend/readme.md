@@ -1,4 +1,4 @@
-````
+```hcl
 terraform {
   backend "s3" {
     bucket  = "cdec-b68-terraform-remote-backend"
@@ -9,7 +9,7 @@ terraform {
     #use_lockfile = true
   }
 }
-````
+```
 ````
 terraform init
 ````
